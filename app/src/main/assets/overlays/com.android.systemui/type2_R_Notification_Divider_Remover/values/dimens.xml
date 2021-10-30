@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The height of the divider between the individual notifications. -->
+    <dimen name="notification_divider_height">0.0dp</dimen>
+
+    <!-- The alpha of the dividing line between child notifications of a notification group. -->
+    <item name="notification_divider_alpha" format="float" type="dimen">0.0</item>
+</resources>
+

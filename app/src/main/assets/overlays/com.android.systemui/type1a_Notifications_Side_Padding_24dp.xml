@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Side padding on the lockscreen on the side of notifications -->
+    <dimen name="notification_side_paddings">20dp</dimen>
+    <!-- The height of the gap between adjacent notification sections. -->
+    <dimen name="notification_section_divider_height">4dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The number of rows in the QuickSettings -->
+    <integer name="quick_settings_max_rows">2</integer>
+</resources>
+
+

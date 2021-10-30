@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="are_flags_overrideable">true</bool>
+    <!-- Height of the Ongoing App Ops chip -->
+    <dimen name="ongoing_appops_chip_height">22dp</dimen>
+    <!-- Side padding between background of Ongoing App Ops chip and content -->
+    <dimen name="ongoing_appops_chip_side_padding">2dp</dimen>
+    <!-- Margin between icons of Ongoing App Ops chip -->
+    <dimen name="ongoing_appops_chip_icon_margin">2dp</dimen>
+    <!-- Icon size of Ongoing App Ops chip -->
+    <dimen name="ongoing_appops_chip_icon_size">12dp</dimen>
+    <!-- Radius of Ongoing App Ops chip corners -->
+    <dimen name="ongoing_appops_chip_bg_corner_radius">22dp</dimen>
+    <!--  One or two privacy items  -->
+    <dimen name="ongoing_appops_chip_min_width">22dp</dimen>
+    <!--  Three privacy items. This value must not be exceeded  -->
+    <dimen name="ongoing_appops_chip_max_width">76dp</dimen>
+    <dimen name="ongoing_appops_dot_diameter">6dp</dimen>
+    <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
+    <dimen name="ongoing_appops_dot_min_padding">4dp</dimen>
+    <dimen name="ongoing_appops_dialog_side_margins">2dp</dimen>
+    <dimen name="ongoing_appops_dialog_circle_size">32dp</dimen>
+    <dimen name="ongoing_appops_dialog_icon_size">20dp</dimen>
+    <dimen name="ongoing_appops_dialog_side_padding">16dp</dimen>
+</resources>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bubbleBusinessText">#00000000</color>
+    <color name="bubbleSecurityText">#00000000</color>
+    <color name="conversation_divider_text">#00000000</color>
+    <color name="divider_gray">#00000000</color>
+    <color name="list_header_divider">#00000000</color>
+    <color name="list_section_divider">#00000000</color>
+    <color name="list_section_divider_v2">#00000000</color>
+    <color name="mention_divider_dark_theme">#00000000</color>
+    <color name="payments_divider_gray">#00000000</color>
+    <color name="search_large_divider_color">#00000000</color>
+    <color name="settings_divider">#00000000</color>
+    <color name="settings_divider_line_color">#00000000</color>
+    <color name="verify_sms_divider">#00000000</color>
+</resources>

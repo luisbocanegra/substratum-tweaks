@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height_portrait">70.0dip</dimen>
+    <dimen name="status_bar_height_landscape">70.0dip</dimen>
+</resources>

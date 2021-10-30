@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Whether or not we show the number in the bar. -->
+    <bool name="config_statusBarShowNumber">true</bool>
+</resources>
+

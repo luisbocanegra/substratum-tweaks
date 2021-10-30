@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Radius for notifications corners without adjacent notifications -->
+    <dimen name="qs_corner_radius">16dp</dimen>
+</resources>
+

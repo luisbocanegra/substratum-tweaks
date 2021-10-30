@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Allow PIP to enable round corner, see also R.dimen.pip_corner_radius -->
+    <bool name="config_pipEnableRoundCorner">true</bool>
+    <!-- The corner radius for PiP window. -->
+    <dimen name="pip_corner_radius">24dp</dimen>
+</resources>

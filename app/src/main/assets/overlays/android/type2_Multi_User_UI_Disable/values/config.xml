@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Whether UI for multi user should be shown -->
+    <bool name="config_enableMultiUserUI">false</bool>
+    
+    <!-- If true, show multiuser switcher by default unless the user specifically disables it. -->
+    <bool name="config_showUserSwitcherByDefault">false</bool>
+
+</resources>
+

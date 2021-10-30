@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Maximum number of bubbles to render and animate at one time. While the animations used are
+         lightweight translation animations, this number can be reduced on lower end devices if any
+         performance issues arise. -->
+    <integer name="bubbles_max_rendered">4</integer>
+</resources>

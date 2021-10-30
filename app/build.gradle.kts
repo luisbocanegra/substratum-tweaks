@@ -33,7 +33,7 @@ android {
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
-        applicationId("substratum.theme.template")
+        applicationId("com.luisbocanegra.substweaks")
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion(24)

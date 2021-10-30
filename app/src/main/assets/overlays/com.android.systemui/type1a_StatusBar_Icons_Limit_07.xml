@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_maxNotificationIcons">8</integer>
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+    <integer name="config_maxVisibleStatusIconContainer">7</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
+</resources>
