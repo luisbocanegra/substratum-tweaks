@@ -5,7 +5,7 @@
     <bool name="config_enableMultiUserUI">true</bool>
     
     <!-- If true, show multiuser switcher by default unless the user specifically disables it. -->
-    <bool name="config_showUserSwitcherByDefault">tue</bool>
+    <bool name="config_showUserSwitcherByDefault">true</bool>
     
 
 </resources>
