@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Radius for notifications corners without adjacent notifications -->
-    <dimen name="notification_corner_radius">12dp</dimen>
-</resources>
-
