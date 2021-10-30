@@ -13,13 +13,14 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
         tools:node="replace"
         tools:ignore="GoogleAppIndexingWarning"
-        android:extractNativeLibs="false">
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round">
 
         <activity android:name="substratum.theme.template.SubstratumLauncher">
             <intent-filter>

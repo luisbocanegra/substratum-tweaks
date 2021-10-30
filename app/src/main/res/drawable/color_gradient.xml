@@ -14,8 +14,8 @@
           android:endY="108.15"
           android:endX="108.15"
           android:type="linear">
-        <item android:offset="0" android:color="#FF4DE7"/>
-        <item android:offset="1" android:color="#5330FF"/>
+        <item android:offset="0" android:color="#2C5FE2"/>
+        <item android:offset="1" android:color="#821595"/>
       </gradient>
     </aapt:attr>
     <aapt:attr name="android:strokeColor">
@@ -30,6 +30,5 @@
         <item android:offset="1" android:color="#FF000000"/>
       </gradient>
     </aapt:attr>
-
   </path>
 </vector>
