@@ -8,5 +8,4 @@
     <dimen name="battery_level_padding_start">0dp</dimen>
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">0dp</dimen>
-
 </resources>

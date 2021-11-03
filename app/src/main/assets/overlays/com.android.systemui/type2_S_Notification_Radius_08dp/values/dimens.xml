@@ -3,9 +3,5 @@
     <!-- Radius for notifications corners without adjacent notifications -->
     <dimen name="notification_corner_radius">8dp</dimen>
     <dimen name="notification_scrim_corner_radius">12dp</dimen>
-    <!-- The height of the gap between adjacent notification sections. -->
-    <dimen name="notification_section_divider_height">0dp</dimen>
-    <!-- Distance between notifications and header when they are considered to be colliding. -->
-    <dimen name="header_notifications_collide_distance">2dp</dimen>
 </resources>
 

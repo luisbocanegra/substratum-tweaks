@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- The padding between the notifications and the quick settings container -->
-    <dimen name="qs_notification_padding">4dp</dimen>
-</resources>
