@@ -1,4 +1,4 @@
-package substratum.theme.template
+package com.luisbocanegra.substweaks
 
 object AdvancedConstants {
 
