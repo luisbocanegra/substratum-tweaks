@@ -8,12 +8,6 @@
     <dimen name="qs_tile_margin_vertical">@dimen/qs_tile_margin_horizontal</dimen>
     <dimen name="qqs_layout_margin_top">8dp</dimen>
 
-    <!-- The padding/margin at the start/end of the QS tile content (text & icons) -->
-    <dimen name="qs_tile_start_padding">6dp</dimen>
-    <dimen name="qs_tile_padding">3dp</dimen>
-    <dimen name="qs_label_container_margin">2dp</dimen>
-    <dimen name="qs_drawable_end_margin">2dp</dimen>
-
     <dimen name="qs_tile_padding_top_large_text">4dp</dimen>
     <dimen name="qs_tile_padding_top">4dp</dimen>
     <dimen name="qs_tile_padding_bottom">4dp</dimen>
