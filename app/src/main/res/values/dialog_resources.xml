@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Making a dark theme? You know what to do! -->
-    <style name="DialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
+    <style name="DialogStyle" parent="@style/Theme.MaterialComponents.Light.Dialog.Alert" />
     <!--
       ~ Custom dialog message on theme launch.
       ~ Add word in launch_dialog_negative to add a cancel button on the dialog

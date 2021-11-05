@@ -84,7 +84,8 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("com.google.android.material:material:1.4.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.0.4")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.1")
+    implementation("com.google.android.material:material:1.5.0-alpha05")
 }
 
 // Themers: DO NOT MODIFY ANYTHING BELOW
