@@ -1,3 +1,5 @@
 /build
 /src/main/assets-temp
 /src/main/jni/LoadingProcess.h
+/debug
+/release

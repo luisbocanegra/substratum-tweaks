@@ -28,18 +28,19 @@ val ivKey = ByteArray(16).apply {
 }
 
 android {
-    compileSdkVersion(30)
+    compileSdk=31
 
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
-        applicationId("com.luisbocanegra.substweaks")
+        applicationId="com.luisbocanegra.substweaks"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
-        minSdkVersion(24)
+        minSdk=28
         // Both versions must be changed to increment on Play Store/user's devices
         versionCode = 2
         versionName = "2.0"
+        buildToolsVersion = "30.0.2"
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
@@ -81,7 +82,9 @@ dependencies {
     //implementation(fileTree(include = ["*.jar"], dir = "libs"))
     implementation("com.github.javiersantos:PiracyChecker:1.2.5")
     implementation(kotlin("stdlib-jdk8"))
-    implementation("androidx.appcompat:appcompat:1.2.0")
+    implementation("androidx.appcompat:appcompat:1.3.1")
+    implementation("com.google.android.material:material:1.4.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.0.4")
 }
 
 // Themers: DO NOT MODIFY ANYTHING BELOW
