@@ -6,9 +6,14 @@
       ~ Custom dialog message on theme launch.
       ~ Add word in launch_dialog_negative to add a cancel button on the dialog
       -->
-    <string name="launch_dialog_title">Dialog title</string>
-    <string name="launch_dialog_content">Dialog content</string>
+    <string name="launch_dialog_title">⚠️ Warning!</string>
+    <string name="launch_dialog_content">
+        By continuing you accept the responsibility of any error that could be caused by the options
+        in this theme, the majority of them were tested using custom roms and are not warranted to work with OEM software.\n\n
+        Make sure you know how to recover from a bootloop or system crash before using this.
+    </string>
     <string name="launch_dialog_positive">OK</string>
     <string name="launch_dialog_negative">Cancel</string>
-    <string name="launch_dialog_negative_url">https://gooogle.com</string>
+    <string name="launch_dialog_neutral">Github</string>
+    <string name="launch_dialog_repo_url">https://github.com/luisbocanegra/substratum-tweaks</string>
 </resources>

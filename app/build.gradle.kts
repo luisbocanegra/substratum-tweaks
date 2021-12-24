@@ -38,8 +38,8 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdk=28
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode = 2
-        versionName = "2.0"
+        versionCode = 100
+        versionName = "1.0.0"
         buildToolsVersion = "30.0.2"
 
         // Themers: DO NOT MODIFY

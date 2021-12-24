@@ -58,8 +58,8 @@ class SubstratumLauncher : Activity() {
         if (!BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS && !supportedSystem) {
             Log.e(tag, "This theme does not support the launching theme system. [HIJACK] ($caller)")
             Toast.makeText(this,
-                    String.format(getString(R.string.unauthorized_theme_client_hijack), caller),
-                    Toast.LENGTH_LONG).show()
+                String.format(getString(R.string.unauthorized_theme_client_hijack), caller),
+                Toast.LENGTH_LONG).show()
             finish()
         }
         if (debug) {
@@ -80,8 +80,8 @@ class SubstratumLauncher : Activity() {
             }
         } else {
             OTHER_THEME_SYSTEMS
-                    .filter { action?.startsWith(prefix = it, ignoreCase = true) ?: false }
-                    .forEach { _ -> verified = true }
+                .filter { action?.startsWith(prefix = it, ignoreCase = true) ?: false }
+                .forEach { _ -> verified = true }
         }
         if (!verified) {
             Log.e(tag, "This theme does not support the launching theme system. ($action)")
@@ -163,15 +163,15 @@ class SubstratumLauncher : Activity() {
                     }
                     doNotAllow { _, _ ->
                         val parse = String.format(
-                                getString(R.string.toast_unlicensed),
-                                getString(R.string.ThemeName))
+                            getString(R.string.toast_unlicensed),
+                            getString(R.string.ThemeName))
                         Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
                         destroy()
                         finish()
                     }
                     onError { error ->
                         Toast.makeText(this@SubstratumLauncher, error.toString(), Toast.LENGTH_LONG)
-                                .show()
+                            .show()
                         destroy()
                         finish()
                     }
@@ -185,22 +185,17 @@ class SubstratumLauncher : Activity() {
 
     private fun showDialog() {
         val dialog = AlertDialog.Builder(this, R.style.DialogStyle)
-                .setCancelable(false)
-                .setIcon(R.mipmap.ic_launcher)
-                .setTitle(R.string.launch_dialog_title)
-                .setMessage(R.string.launch_dialog_content)
-                .setPositiveButton(R.string.launch_dialog_positive) { _, _ -> startAntiPiracyCheck() }
-        if (getString(R.string.launch_dialog_negative).isNotEmpty()) {
-            if (getString(R.string.launch_dialog_negative_url).isNotEmpty()) {
-                dialog.setNegativeButton(R.string.launch_dialog_negative) { _, _ ->
-                    startActivity(Intent(Intent.ACTION_VIEW,
-                            Uri.parse(getString(R.string.launch_dialog_negative_url))))
-                    finish()
-                }
-            } else {
-                dialog.setNegativeButton(R.string.launch_dialog_negative) { _, _ -> finish() }
+            .setCancelable(false)
+            .setIcon(R.mipmap.ic_launcher)
+            .setTitle(R.string.launch_dialog_title)
+            .setMessage(R.string.launch_dialog_content)
+            .setPositiveButton(R.string.launch_dialog_positive) { _, _ -> startAntiPiracyCheck() }
+            .setNeutralButton(R.string.launch_dialog_neutral){ _, _ ->
+                startActivity(Intent(Intent.ACTION_VIEW,
+                        Uri.parse(getString(R.string.launch_dialog_repo_url))))
+                finish()
             }
-        }
+            .setNegativeButton(R.string.launch_dialog_negative) { _, _ -> finish() }
         dialog.show()
     }
 }
