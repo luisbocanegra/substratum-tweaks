@@ -1,0 +1,3 @@
+Basic support for Android 12+ colors. Colors don't work in some cards, menus and the hamburger menu.
+by https://invent.kde.org/thisbeme
+MR:https://invent.kde.org/network/kdeconnect-android/-/merge_requests/273?commit_id=db4945f73c40818ce1461374cb1daf50f86b1dc4#9fa61e2c0a374c46dcaefa6859fd3a509c7e7156
