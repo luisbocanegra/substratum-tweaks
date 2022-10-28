@@ -40,7 +40,7 @@ android {
         // Both versions must be changed to increment on Play Store/user's devices
         versionCode = 100
         versionName = "1.0.0"
-        buildToolsVersion = "30.0.2"
+        //buildToolsVersion = "30.0.2"
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
@@ -76,6 +76,7 @@ android {
             java.srcDir("src/main/kotlin")
         }
     }
+    namespace = "com.luisbocanegra.substweaks"
 }
 
 dependencies {
