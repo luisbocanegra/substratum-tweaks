@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="messageStarColor">#ff8b95b9</color>
-    <color name="msgStatusErrorTint">#ffff0000</color>
-    <color name="msgStatusReadTint">#ff00ff7f</color>
-    <color name="msgStatusTint">#ff4f5bff</color>
-    <color name="msgStatusUnplayedTint">#ffaebdff</color>    
-</resources>
