@@ -1,0 +1,1 @@
+tweak Android's resource values
