@@ -100,3 +100,6 @@ Thumbs.db
 # Mac thumbnail cache
 #############################################################################
 .DS_Store
+
+# Releases Keystore
+keystore.properties

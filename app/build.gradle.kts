@@ -14,6 +14,8 @@ import javax.crypto.Cipher
 import javax.crypto.spec.IvParameterSpec
 import javax.crypto.spec.SecretKeySpec
 
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -26,6 +28,18 @@ val key = ByteArray(16).apply {
 val ivKey = ByteArray(16).apply {
     Random().nextBytes(this)
 }
+
+
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+val keystoreProperties = Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+
 
 android {
     compileSdk=31
@@ -51,6 +65,15 @@ android {
         buildConfigField("byte[]", "IV_KEY", ivKey.joinToString(prefix = "{", postfix = "}"))
         resValue("string", "encryption_status", if (shouldEncrypt()) "onCompileVerify" else "false")
     }
+    signingConfigs {
+        create("release") {
+                keyAlias = keystoreProperties["keyAlias"] as String?
+                keyPassword = keystoreProperties["keyPassword"] as String?
+                storeFile = keystoreProperties["storeFile"]?.let { file(it) }
+                storePassword = keystoreProperties["storePassword"] as String?
+
+        }
+    }
     buildTypes {
         getByName("debug") {
             isMinifyEnabled = false
@@ -62,6 +85,7 @@ android {
             buildConfigField("String", "APK_SIGNATURE_PRODUCTION", "\"\"")
         }
         getByName("release") {
+            signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
 
