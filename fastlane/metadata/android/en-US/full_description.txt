@@ -2,7 +2,7 @@
 
 By using this software accept the responsibility of any error that could be caused by the options in this theme, the majority of them were tested using custom roms and are not warranted to work with OEM software.
 
-<b>Make sure you know how to recover from a bootloop or system crash before using this!!!</b>
+<b>Please read <a href='https://github.com/luisbocanegra/substratum-tweaks/tree/dev#Recovering-from-boot-loop'>how to recover from a bootloop or system crash</a> before using this!!!</b>
 
 <br><b>Features:</b>
 
@@ -24,4 +24,4 @@ By using this software accept the responsibility of any error that could be caus
   * Wifi & Data activity indicators
   * more...
 
-This app requires a rooted Android device and either <a href='https://github.com/substratum/substratum'>substratum</a> or <a href='https://play.google.com/store/apps/details?id=projekt.substratum.lite'>Subsstratum lite</a>.
+This app requires a rooted Android device and <a href='https://play.google.com/store/apps/details?id=projekt.substratum.lite'>substratum lite theme engine</a>.
