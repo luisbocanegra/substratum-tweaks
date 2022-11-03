@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+        during initialization when the setting is still null. -->
+        <bool name="config_dozeAlwaysOnEnabled">true</bool>
+</resources>
