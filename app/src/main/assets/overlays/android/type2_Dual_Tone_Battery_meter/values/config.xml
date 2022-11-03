@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A dual tone battery meter draws the perimeter path twice - once to define the shape
+    and a second time clipped to the fill level to indicate charge -->
+    <bool name="config_batterymeterDualTone">true</bool>
+</resources>
