@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <bool name="are_flags_overrideable">true</bool>
     <bool name="flag_combined_status_bar_signal_icons">true</bool>
 </resources>
-
