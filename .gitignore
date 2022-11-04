@@ -103,3 +103,5 @@ Thumbs.db
 
 # Releases Keystore
 keystore.properties
+
+.vscode
