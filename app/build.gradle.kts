@@ -101,6 +101,11 @@ android {
         }
     }
     namespace = "com.luisbocanegra.substweaks"
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = false
+        }
+    }
 }
 
 dependencies {
@@ -111,6 +116,11 @@ dependencies {
     implementation("com.google.android.material:material:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.1")
     implementation("com.google.android.material:material:1.5.0-alpha05")
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 // Themers: DO NOT MODIFY ANYTHING BELOW

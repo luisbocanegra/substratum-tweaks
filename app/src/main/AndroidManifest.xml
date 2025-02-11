@@ -12,7 +12,6 @@
 
     <application
         android:allowBackup="false"
-        android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
