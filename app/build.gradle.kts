@@ -106,6 +106,9 @@ android {
             useLegacyPackaging = false
         }
     }
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
